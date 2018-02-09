@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 26
@@ -31,4 +32,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+
+publish {
+    userOrg = 'anitoy'
+    groupId = 'com.jeongmin.library'
+    artifactId = 'flowlayout'
+    publishVersion = '0.0.1'
+    desc = 'PeanutView is a simple shape motion graphic library'
+    website = 'https://github.com/jeongmin/FlowLayout'
+    repository = 'https://github.com/jeongmin/FlowLayout.git'
 }

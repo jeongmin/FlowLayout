@@ -82,9 +82,8 @@ center_vertical   | 2 | Place object to the vertical center of its container.
 center_horizontal | 3 | Place object to the horizontal center of its container.
 
 none | center | center_vertical | center_horizontal
------|----------------|------------|----------
-![none](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/no_line_gravity.png) |
-![center](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/line_gravity_center.png) | ![center_vertical](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/line_gravity_center_vertical.png) | ![center_horizontal](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/line_gravity_center_horizontal.png)
+-----|--------|-----------------|--------------------
+![none](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/no_line_gravity.png) | ![center](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/line_gravity_center.png) | ![center_vertical](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/line_gravity_center_vertical.png) | ![center_horizontal](https://github.com/jeongmin/FlowLayout/blob/master/screenshot/line_gravity_center_horizontal.png)
 
 
 ## License

@@ -1,5 +1,5 @@
 # FlowLayout
-Android viewgroup which automatically breaks line when there is not enough place to put its child view on a current line. The height of each line depends on the most heightest child.(Margins of view are also taken account into calculation.) 
+Android viewgroup automatically breaks line when there is not enough space to put its child view on a current line. The height of each line depends on the most heightest child.(Margins of view are also taken account into calculation.)
 
 And you can control the alignment of children in each line by using **line_gravity** attribute. 
 

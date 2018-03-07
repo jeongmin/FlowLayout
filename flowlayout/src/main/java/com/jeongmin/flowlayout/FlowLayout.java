@@ -222,11 +222,14 @@ public class FlowLayout extends ViewGroup {
     }
 
 
+    /**
+     * Represent each row(line) of this FlowLayout.
+     */
     class Row {
-        public int width;
-        public int height;
-        public int top;
-        public ArrayList<View> children;
+        public int width;     // Width
+        public int height;    // Height
+        public int top;       // Most top position from parent.
+        public ArrayList<View> children;  // Views in this row.
 
         public Row(int top) {
             this.top = top;
